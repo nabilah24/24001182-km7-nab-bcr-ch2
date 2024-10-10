@@ -12,7 +12,7 @@ class Car {
     async init() {
         await this.load();
 
-        document.body.onload = this.carAvailable;
+        // document.body.onload = this.carAvailable;
         this.searchBtn.onclick = this.run;
     }
 
